@@ -18,4 +18,5 @@ public class ItemDTO {
     private double supplierPrice;
     private double sellingPrice;
     private boolean activeState;
+    private Object data;
 }
