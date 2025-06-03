@@ -59,7 +59,7 @@ public class ItemController {
     {
         PaginatedResponseItemDTO paginatedResponseItemDTO = itemService.getAllItemsActive(page,size,activeState);
         return new ResponseEntity<StandardResponse>(
-                new StandardResponse(200,"Success", paginatedResponseItemDTO),
+//                new StandardResponse(200,"Success", paginatedResponseItemDTO),
                 HttpStatus.OK
         );
     }
@@ -73,7 +73,7 @@ public class ItemController {
     {
         PaginatedResponseItemDTO paginatedResponseItemDTO = itemService.getAllActiveItemsPaginated(page,size,activeState);
         return new ResponseEntity<StandardResponse>(
-                new StandardResponse(200,"Success", paginatedResponseItemDTO),
+//                new StandardResponse(200,"Success", paginatedResponseItemDTO),
                 HttpStatus.OK
         );
     }
