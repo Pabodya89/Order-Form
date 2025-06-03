@@ -13,7 +13,7 @@ public class PaginatedResponseItemDTO {
     private List<ItemDTO> list;
     private long dataCount;
 
-    public PaginatedResponseItemDTO(List<ItemDTO> itemDTOS, long count) {
-    }
+//    public PaginatedResponseItemDTO(List<ItemDTO> itemDTOS, long count) {
+//    }
 
 }
