@@ -56,7 +56,7 @@ public class OrderServiceIMPL implements OrderService {
             for(int i=0;i<orderDetails.size();i++)
             {
                 orderDetails.get(i).setOrders(order);
-                orderDetails.get(i).setItems(itemRepo.getById(requestOrderSaveDTO.getOrderDetails().get(i).getItem()));
+                orderDetails.get(i).setItems(itemRepo.getById(requestOrderSaveDTO.getOrderDetails().get(i).getItems()));
             }
 
             if(orderDetails.size() > 0)
